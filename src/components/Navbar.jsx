@@ -11,8 +11,8 @@ export default function Navbar() {
                 <div className='flex gap-14'>
                     <ul className='flex gap-14 font-medium items-center'>
                         <li className='hover:font-bold'><NavLink className={({ isActive }) => (isActive ? "font-bold" : null)} to="/">Home</NavLink></li>
-                        <li className='hover:font-bold'><NavLink className={({ isActive }) => (isActive ? "font-bold" : null)} to={'/products'}>productos</NavLink></li>
-                        <li className='hover:font-bold'><NavLink className={({ isActive }) => (isActive ? "font-bold" : null)} to={"/contact"}>Contacto</NavLink></li>
+                        <li className='hover:font-bold'><NavLink className={({ isActive }) => (isActive ? "font-bold" : null)} to={'/products'}>products</NavLink></li>
+                        <li className='hover:font-bold'><NavLink className={({ isActive }) => (isActive ? "font-bold" : null)} to={"/contact"}>Contact</NavLink></li>
                     </ul>
                     <div>
                         <button className='px-2 py-1 bg-black text-white font-semibold border border-black hover:bg-white hover:text-black'>Login</button>
