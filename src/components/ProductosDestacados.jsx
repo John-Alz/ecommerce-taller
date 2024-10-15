@@ -9,7 +9,7 @@ export default function ProductosDestacados() {
     console.log(products);
 
 
-    let productosDestacados = products.slice(0, 3)
+    let productosDestacados = products.slice(3, 6)
     console.log(productosDestacados);
 
 
