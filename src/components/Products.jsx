@@ -42,7 +42,7 @@ export default function Products() {
 
     return (
         <>
-            <div className='w-[90%] m-auto mt-5 grid grid-cols-3'>
+            <div className='w-[90%] m-auto mt-5 grid grid-cols-3 gap-8'>
                 {
                     newData.map((product, i) => {
                         return (

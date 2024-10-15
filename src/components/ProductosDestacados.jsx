@@ -18,7 +18,7 @@ export default function ProductosDestacados() {
             <div className='mb-5'>
                 <p className='bg-black w-24 text-white text-md text-center py-1 '>Best Selling</p>
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 gap-8'>
                 {productosDestacados.map((product, i) => {
                     return (
                         <div>
